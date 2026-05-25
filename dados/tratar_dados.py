@@ -6,12 +6,23 @@ Data: 2026-05
 """
 
 import csv
+import json
 import os
 import re
 
 BRUTOS = os.path.join(os.path.dirname(__file__), "brutos")
 TRATADOS = os.path.join(os.path.dirname(__file__), "tratados")
+JSON_MAPA = "C:/Users/ryzen/Downloads/AM_Municipios.json"
 os.makedirs(TRATADOS, exist_ok=True)
+
+
+def carregar_nomes_oficiais():
+    """Carrega os nomes oficiais dos municípios do JSON do IBGE (com acentos corretos)."""
+    with open(JSON_MAPA, encoding="utf-8") as f:
+        data = json.load(f)
+    geometries = data["objects"]["AM_Municipios_2023"]["geometries"]
+    # chave: 6 primeiros dígitos do código IBGE → valor: nome oficial
+    return {g["properties"]["CD_MUN"][:6]: g["properties"]["NM_MUN"] for g in geometries}
 
 
 # ──────────────────────────────────────────────
@@ -21,13 +32,13 @@ def tratar_sinan():
     arquivo_entrada = os.path.join(BRUTOS, "sinannet_cnv_violeam222130191_189_25_82.csv")
     arquivo_saida = os.path.join(TRATADOS, "sinan_violencia_feminina_am.csv")
 
+    nomes_oficiais = carregar_nomes_oficiais()
     dados = []
 
     with open(arquivo_entrada, encoding="latin-1") as f:
         linhas = f.readlines()
 
-    # Ignora as primeiras 6 linhas de metadados e o rodapé (linhas que começam com espaço ou são vazias após os dados)
-    inicio_dados = 7  # linha do cabeçalho real começa em índice 6, dados em 7
+    inicio_dados = 7
     for linha in linhas[inicio_dados:]:
         linha = linha.strip()
         if not linha or linha.startswith('"Total"') or linha.startswith(" ") or linha.startswith("*"):
@@ -40,11 +51,12 @@ def tratar_sinan():
         municipio_raw = partes[0].strip().strip('"')
         casos_raw = partes[1].strip().strip('"')
 
-        # Separa código IBGE do nome do município
+        # Separa código IBGE do nome bruto
         match = re.match(r"^(\d{6})\s+(.+)$", municipio_raw)
         if match:
             codigo_ibge = match.group(1)
-            municipio = match.group(2).strip().title()  # Ex: "ALVARAES" → "Alvaraes"
+            # Usa nome oficial do JSON (com acentos corretos); fallback para nome bruto
+            municipio = nomes_oficiais.get(codigo_ibge, match.group(2).strip().title())
         else:
             codigo_ibge = ""
             municipio = municipio_raw.title()
