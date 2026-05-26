@@ -17,12 +17,36 @@ os.makedirs(TRATADOS, exist_ok=True)
 
 
 def carregar_nomes_oficiais():
-    """Carrega os nomes oficiais dos municípios do JSON do IBGE (com acentos corretos)."""
+    """Carrega os nomes oficiais dos municípios do JSON do IBGE (com acentos corretos).
+    Retorna dois dicionários:
+      - por código IBGE (6 dígitos)
+      - por nome normalizado (sem acento, minúsculo) para cruzar com dados do SUAS
+    """
+    import unicodedata
     with open(JSON_MAPA, encoding="utf-8") as f:
         data = json.load(f)
     geometries = data["objects"]["AM_Municipios_2023"]["geometries"]
-    # chave: 6 primeiros dígitos do código IBGE → valor: nome oficial
-    return {g["properties"]["CD_MUN"][:6]: g["properties"]["NM_MUN"] for g in geometries}
+
+    por_codigo = {}
+    por_nome_normalizado = {}
+
+    for g in geometries:
+        cd = g["properties"]["CD_MUN"][:6]
+        nm = g["properties"]["NM_MUN"]
+        # Normaliza: remove acentos, minúsculo, sem espaços extras
+        nm_norm = unicodedata.normalize("NFD", nm)
+        nm_norm = "".join(c for c in nm_norm if unicodedata.category(c) != "Mn").lower().strip()
+        por_codigo[cd] = nm
+        por_nome_normalizado[nm_norm] = nm
+
+    return por_codigo, por_nome_normalizado
+
+
+def normalizar(texto):
+    """Remove acentos e converte para minúsculo para comparação."""
+    import unicodedata
+    texto = unicodedata.normalize("NFD", texto)
+    return "".join(c for c in texto if unicodedata.category(c) != "Mn").lower().strip()
 
 
 # ──────────────────────────────────────────────
@@ -32,7 +56,7 @@ def tratar_sinan():
     arquivo_entrada = os.path.join(BRUTOS, "sinannet_cnv_violeam222130191_189_25_82.csv")
     arquivo_saida = os.path.join(TRATADOS, "sinan_violencia_feminina_am.csv")
 
-    nomes_oficiais = carregar_nomes_oficiais()
+    nomes_oficiais, _ = carregar_nomes_oficiais()
     dados = []
 
     with open(arquivo_entrada, encoding="latin-1") as f:
@@ -91,7 +115,9 @@ def tratar_suas_creas():
     arquivo_entrada = os.path.join(BRUTOS, "suas_creas_amazonas.csv")
     arquivo_saida = os.path.join(TRATADOS, "suas_creas_am.csv")
 
+    _, nomes_por_norm = carregar_nomes_oficiais()
     dados = []
+    sem_match = []
 
     with open(arquivo_entrada, encoding="latin-1") as f:
         reader = csv.reader(f)
@@ -104,10 +130,18 @@ def tratar_suas_creas():
             nome = row[1].strip().title() if row[1].strip() else "CREAS"
             identificador = row[2].strip()
             uf = row[3].strip()
-            municipio = row[4].strip().title()
+            municipio_raw = row[4].strip().title()
 
-            if not municipio or municipio.lower() == "município":
+            if not municipio_raw or municipio_raw.lower() == "município":
                 continue
+
+            # Corrige nome pelo JSON oficial
+            municipio_norm = normalizar(municipio_raw)
+            if municipio_norm in nomes_por_norm:
+                municipio = nomes_por_norm[municipio_norm]
+            else:
+                municipio = municipio_raw
+                sem_match.append(municipio_raw)
 
             dados.append({
                 "tipo": "CREAS",
@@ -116,6 +150,9 @@ def tratar_suas_creas():
                 "uf": uf,
                 "municipio": municipio
             })
+
+    if sem_match:
+        print(f"  [AVISO] CREAS sem match no JSON ({len(sem_match)}): {set(sem_match)}")
 
     with open(arquivo_saida, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=["tipo", "nome", "identificador", "uf", "municipio"])
@@ -133,6 +170,7 @@ def tratar_suas_cras():
     arquivo_entrada = os.path.join(BRUTOS, "suas_cras_manaus.csv")
     arquivo_saida = os.path.join(TRATADOS, "suas_cras_manaus.csv")
 
+    _, nomes_por_norm = carregar_nomes_oficiais()
     dados = []
 
     with open(arquivo_entrada, encoding="latin-1") as f:
@@ -145,10 +183,13 @@ def tratar_suas_cras():
             nome = row[1].strip().title() if row[1].strip() else "CRAS"
             identificador = row[2].strip()
             uf = row[3].strip()
-            municipio = row[4].strip().title()
+            municipio_raw = row[4].strip().title()
 
-            if not municipio or municipio.lower() == "município":
+            if not municipio_raw or municipio_raw.lower() == "município":
                 continue
+
+            municipio_norm = normalizar(municipio_raw)
+            municipio = nomes_por_norm.get(municipio_norm, municipio_raw)
 
             dados.append({
                 "tipo": "CRAS",
