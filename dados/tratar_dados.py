@@ -209,18 +209,58 @@ def tratar_suas_cras():
 
 
 # ──────────────────────────────────────────────
-# 4. Consolida rede SUAS (CREAS + CRAS juntos)
+# 4. CRAS AM — dados coletados via web (agendamentocras.com.br)
 # ──────────────────────────────────────────────
-def consolidar_rede_suas(creas, cras):
+def tratar_cras_web():
+    arquivo_entrada = os.path.join(BRUTOS, "cras_am_web.csv")
+    arquivo_saida = os.path.join(TRATADOS, "cras_am_completo.csv")
+
+    dados = []
+    with open(arquivo_entrada, encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            dados.append({
+                "tipo": row["tipo"],
+                "nome": row["nome"],
+                "identificador": "",
+                "uf": row["uf"],
+                "municipio": row["municipio"]
+            })
+
+    with open(arquivo_saida, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["tipo", "nome", "identificador", "uf", "municipio"])
+        writer.writeheader()
+        writer.writerows(dados)
+
+    municipios = len({r["municipio"] for r in dados})
+    print(f"[OK] CRAS web tratado: {len(dados)} unidades / {municipios} municipios -> {arquivo_saida}")
+    return dados
+
+
+# ──────────────────────────────────────────────
+# 5. Consolida rede SUAS (CREAS + CRAS completo)
+# ──────────────────────────────────────────────
+def consolidar_rede_suas(creas, cras_web):
     arquivo_saida = os.path.join(TRATADOS, "rede_suas_am_consolidada.csv")
-    todos = creas + cras
+
+    # Deduplica por (nome normalizado + municipio) para evitar repetição entre fontes
+    vistos = set()
+    todos = []
+    for r in creas + cras_web:
+        chave = (normalizar(r["nome"]), normalizar(r["municipio"]))
+        if chave not in vistos:
+            vistos.add(chave)
+            todos.append(r)
 
     with open(arquivo_saida, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=["tipo", "nome", "identificador", "uf", "municipio"])
         writer.writeheader()
         writer.writerows(todos)
 
-    print(f"[OK] Rede SUAS consolidada: {len(todos)} unidades totais -> {arquivo_saida}")
+    creas_total = sum(1 for r in todos if r["tipo"] == "CREAS")
+    cras_total  = sum(1 for r in todos if r["tipo"] == "CRAS")
+    municipios  = len({r["municipio"] for r in todos})
+    print(f"[OK] Rede SUAS consolidada: {len(todos)} unidades "
+          f"({creas_total} CREAS + {cras_total} CRAS) / {municipios} municipios -> {arquivo_saida}")
 
 
 # ──────────────────────────────────────────────
@@ -231,9 +271,10 @@ if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
 
     print("\nIniciando tratamento dos dados...\n")
-    sinan = tratar_sinan()
-    creas = tratar_suas_creas()
-    cras = tratar_suas_cras()
-    consolidar_rede_suas(creas, cras)
+    sinan    = tratar_sinan()
+    creas    = tratar_suas_creas()
+    _        = tratar_suas_cras()        # mantido para referência/auditoria
+    cras_web = tratar_cras_web()
+    consolidar_rede_suas(creas, cras_web)
     print("\nTodos os arquivos tratados salvos em /dados/tratados/")
     print("Prontos para importar no Power BI.\n")
