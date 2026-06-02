@@ -21,36 +21,65 @@ def decodificar_arco(arco, scale, translate):
     return pontos
 
 
-def centroide_de_pontos(pontos):
-    """Centroide simples: média de todas as coordenadas."""
-    if not pontos:
+def centroide_poligono(anel):
+    """
+    Centroide geométrico ponderado pela área (fórmula de Shoelace).
+    Muito mais preciso que a média de vértices para polígonos irregulares
+    como os municípios do Amazonas (fronteiras cheias de curvas de rios).
+    Recebe lista de (lon, lat). Retorna (lat, lon).
+    """
+    n = len(anel)
+    if n < 3:
         return None, None
-    lons = [p[0] for p in pontos]
-    lats = [p[1] for p in pontos]
-    return sum(lats) / len(lats), sum(lons) / len(lons)  # retorna lat, lon
+
+    area = 0.0
+    cx = 0.0
+    cy = 0.0
+
+    for i in range(n):
+        x0, y0 = anel[i]
+        x1, y1 = anel[(i + 1) % n]
+        cross = x0 * y1 - x1 * y0
+        area += cross
+        cx   += (x0 + x1) * cross
+        cy   += (y0 + y1) * cross
+
+    area *= 0.5
+    if abs(area) < 1e-12:
+        # Fallback para média simples se área for degenerada
+        lons = [p[0] for p in anel]
+        lats = [p[1] for p in anel]
+        return sum(lats) / len(lats), sum(lons) / len(lons)
+
+    cx /= (6.0 * area)
+    cy /= (6.0 * area)
+    return cy, cx  # retorna lat, lon
 
 
-def coletar_pontos_geometria(geometria, arcos, scale, translate):
-    """Coleta todos os pontos de uma geometria (Polygon ou MultiPolygon)."""
-    pontos = []
+def coletar_aneis_geometria(geometria, arcos, scale, translate):
+    """Coleta os anéis exteriores de uma geometria (Polygon ou MultiPolygon).
+    Retorna lista de anéis, cada um sendo lista de (lon, lat)."""
+    aneis = []
 
-    def processar_rings(rings):
-        for ring in rings:
-            for idx in ring:
-                arco = arcos[~idx] if idx < 0 else arcos[idx]
-                coords = decodificar_arco(arco, scale, translate)
-                if idx < 0:
-                    coords = coords[::-1]  # arco invertido
-                pontos.extend(coords)
+    def reconstruir_anel(ring_indices):
+        anel = []
+        for idx in ring_indices:
+            arco = arcos[~idx] if idx < 0 else arcos[idx]
+            pts  = decodificar_arco(arco, scale, translate)
+            if idx < 0:
+                pts = pts[::-1]
+            anel.extend(pts)
+        return anel
 
     tipo = geometria.get("type")
     if tipo == "Polygon":
-        processar_rings(geometria["arcs"])
+        # Apenas o anel exterior (índice 0)
+        aneis.append(reconstruir_anel(geometria["arcs"][0]))
     elif tipo == "MultiPolygon":
         for poligono in geometria["arcs"]:
-            processar_rings(poligono)
+            aneis.append(reconstruir_anel(poligono[0]))
 
-    return pontos
+    return aneis
 
 
 def normalizar(texto):
@@ -73,8 +102,22 @@ def gerar_centroides():
         cd_mun  = props["CD_MUN"][:6]
         nm_mun  = props["NM_MUN"]
 
-        pontos = coletar_pontos_geometria(geo, arcos, scale, translate)
-        lat, lon = centroide_de_pontos(pontos)
+        aneis = coletar_aneis_geometria(geo, arcos, scale, translate)
+
+        # Para MultiPolygon: usa o anel com maior área como representante
+        melhor_lat, melhor_lon, maior_area = None, None, 0.0
+        for anel in aneis:
+            lat, lon = centroide_poligono(anel)
+            # Calcula área aproximada para escolher o maior polígono
+            area = abs(sum(
+                anel[i][0] * anel[(i+1) % len(anel)][1] -
+                anel[(i+1) % len(anel)][0] * anel[i][1]
+                for i in range(len(anel))
+            ) * 0.5)
+            if lat is not None and area > maior_area:
+                melhor_lat, melhor_lon, maior_area = lat, lon, area
+
+        lat, lon = melhor_lat, melhor_lon
 
         if lat and lon:
             resultados.append({
