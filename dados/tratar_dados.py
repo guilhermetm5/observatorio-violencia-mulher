@@ -237,30 +237,40 @@ def tratar_cras_web():
 
 
 # ──────────────────────────────────────────────
-# 5. Consolida rede SUAS (CREAS + CRAS completo)
+# 5. Consolida rede SUAS (CREAS + CRAS) com coordenadas
 # ──────────────────────────────────────────────
 def consolidar_rede_suas(creas, cras_web):
     arquivo_saida = os.path.join(TRATADOS, "rede_suas_am_consolidada.csv")
 
-    # Deduplica por (nome normalizado + municipio) para evitar repetição entre fontes
+    # Carrega centroides dos municípios
+    centroides = {}
+    with open(os.path.join(TRATADOS, "municipios_centroides.csv"), encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            centroides[normalizar(row["municipio"])] = (row["latitude"], row["longitude"])
+
+    # Deduplica por (nome normalizado + municipio)
     vistos = set()
     todos = []
     for r in creas + cras_web:
         chave = (normalizar(r["nome"]), normalizar(r["municipio"]))
         if chave not in vistos:
             vistos.add(chave)
-            todos.append(r)
+            lat, lon = centroides.get(normalizar(r["municipio"]), ("", ""))
+            todos.append({**r, "latitude": lat, "longitude": lon})
 
     with open(arquivo_saida, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["tipo", "nome", "identificador", "uf", "municipio"])
+        writer = csv.DictWriter(f, fieldnames=["tipo", "nome", "identificador", "uf", "municipio", "latitude", "longitude"])
         writer.writeheader()
         writer.writerows(todos)
 
     creas_total = sum(1 for r in todos if r["tipo"] == "CREAS")
     cras_total  = sum(1 for r in todos if r["tipo"] == "CRAS")
     municipios  = len({r["municipio"] for r in todos})
+    sem_coord   = sum(1 for r in todos if not r["latitude"])
     print(f"[OK] Rede SUAS consolidada: {len(todos)} unidades "
           f"({creas_total} CREAS + {cras_total} CRAS) / {municipios} municipios -> {arquivo_saida}")
+    if sem_coord:
+        print(f"  [AVISO] {sem_coord} unidades sem coordenadas")
 
 
 # ──────────────────────────────────────────────
