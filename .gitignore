@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────
+# Dados brutos grandes (fonte original, não subir ao GitHub)
+# Podem ser baixados novamente nas fontes indicadas no README
+# ─────────────────────────────────────────────
+dados/brutos/disque100*.csv
+
+# ─────────────────────────────────────────────
+# Arquivos temporários do sistema
+# ─────────────────────────────────────────────
+.~lock.*
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+
+# ─────────────────────────────────────────────
+# Power BI temporários
+# ─────────────────────────────────────────────
+*.pbix.bak
