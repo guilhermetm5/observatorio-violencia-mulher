@@ -1,0 +1,261 @@
+tipo,nome,municipio,uf,endereco,horario,latitude,longitude,regiao,fonte
+CRAS,Centro De Referência De Assistência Social - Cidade Nova,Manaus,AM,"AVENIDA C, QD 67, 46, CIDADE NOVA, MANAUS, AM",08h-17h,-3.014109134503321,-59.97057795524598,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social - Alfredo Nascimento,Manaus,AM,"RUA IGARAPÉ ARARA, 326, ALFREDO NASCIMENTO, MANAUS, AM",08h-17h,-3.016455496651698,-59.95164155960084,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social - Betânia,Manaus,AM,"RUA Sao Lazaro, 26, Betânia, MANAUS, AM",08h-17h,-3.132717212260845,-59.995387196586314,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social - Compensa I,Manaus,AM,"RUA RUA DA INDÚSTRIA , 20, COMPENSA I, MANAUS, AM",08h-17h,-3.1020781483544244,-60.051942765712745,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social - Cachoeirinha,Manaus,AM,"AVENIDA CARVALHO LEAL, 1151, CACHOEIRINHA, MANAUS, AM",08h-17h,-3.125303926314782,-60.00631570816041,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA PROFESSOR ABILIO ALENCAR, 0, ALVORADA I, MANAUS, AM",08h-17h,-3.0783911860099935,-60.03645300865174,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA GREVILLIA, 85, NOVO ALEIXO, MANAUS, AM",08h-17h,-3.035847610596379,-59.94204998016358,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA OLINDA, 122, REDENÇÃO, MANAUS, AM",08h-17h,-3.055707202967667,-60.04647940389987,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA EDUARDO PRADO, 0, COMPENSA 2, MANAUS, AM",08h-17h,-3.1009883,-60.0616391,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA RIO DIMITI, 0, SÃO JOSE III, MANAUS, AM",08h-17h,-3.0649458416531874,-59.94413137435914,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA MAGALHÃES BARATA, 0, CRESPO, MANAUS, AM",08h-17h,-3.1344949,-59.9905584,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA BARREIRINHA, 000, SAO JOSE III, MANAUS, AM",08h-17h,-3.070548981828303,-59.92693305015565,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"AVENIDA DESEMBARGADOR GASPAR GUIMARÃES, 000, União, MANAUS, AM",08h-17h,-3.0772960425728892,-60.01356959313854,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA SÃO FRANCISCO, 76, SÃO RAIMUNDO, MANAUS, AM",08h-17h,-3.1266965996542204,-60.036624670028694,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA ITAPEMIRIM, 230, COLONIA TERRA NOVA, MANAUS, AM",08h-17h,-3.016621563187268,-59.99854803085328,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA AGNALDO ACHER PINTO, 2000, Alvorada III, MANAUS, AM",08h-17h,-3.0745129446996526,-60.0574815273285,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA ALGAS MARINHAS, 142, BRAGA MENDES, MANAUS, AM",08h-17h,-3.025978984512893,-59.94179248809815,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"AVENIDA Rodrigo Otávio, 0000, JAPIIM II, MANAUS, AM",08h-17h,-3.110562901501895,-59.98196125030518,Capital,Planilha unidades enfrentamento AM
+CRAS,Centro De Referência De Assistência Social -,Manaus,AM,"RUA CUPIUBA, 352, JORGE TEIXEIRA, MANAUS, AM",08h-17h,-3.039602783661403,-59.93427157402039,Capital,Planilha unidades enfrentamento AM
+CREAS,Centro De Referência Especializado De Assistência Social,Manaus,AM,"AVENIDA Getúlio Vargas, 1127, Centro, MANAUS, AM",08h-17h,-3.1251617371770912,-60.02081670547342,Capital,Planilha unidades enfrentamento AM
+CREAS,Centro De Referência Especializado De Assistência Social,Manaus,AM,"TRAVESSA CANDIBA, 16, CIDADE NOVA II, MANAUS, AM",08h-17h,-3.0289936,-59.98303,Capital,Planilha unidades enfrentamento AM
+CREAS,Centro De Referência Especializado De Assistência Social,Manaus,AM,"AVENIDA GENERAL RODRIGO OTAVIO, 2120, JAPIIM I, MANAUS, AM",08h-17h,-3.1026024,-59.9823667,Capital,Planilha unidades enfrentamento AM
+CREAS,Centro De Referência Especializado De Assistência Social,Manaus,AM,"AVENIDA ITAÚBA, 0, JORGE TEIXEIRA II, MANAUS, AM",08h-17h,-3.0426601,-59.9294712,Capital,Planilha unidades enfrentamento AM
+CREAS,Centro De Referência Especializado De Assistência Social,Manaus,AM,"AVENIDA COMANDANTE PAULO VARELA, 175, DA PAZ, MANAUS, AM",08h-17h,-3.0549454223946837,-60.032184273004546,Capital,Planilha unidades enfrentamento AM
+Promotoria de Justiça,18ª Prodemaph,Manaus,AM,"Av. Coronel Teixeira, 7995 – Nova Esperança",08h-14h,-3.0909035934808493,-60.05450387527468,Capital,Planilha unidades enfrentamento AM
+Promotoria de Justiça,49ª Prodemaph,Manaus,AM,"Av. Coronel Teixeira, 7995 – Nova Esperança",08h-14h,-3.0909035934808494,-60.05450387527469,Capital,Planilha unidades enfrentamento AM
+Promotoria de Justiça,50ª Prodemaph,Manaus,AM,"Av. Coronel Teixeira, 7995 – Nova Esperança",08h-14h,-3.0909035934808495,-60.05450387527470,Capital,Planilha unidades enfrentamento AM
+Promotoria de Justiça,53ª Prodemaph,Manaus,AM,"Av. Coronel Teixeira, 7995 – Nova Esperança",08h-14h,-3.0909035934808496,-60.05450387527471,Capital,Planilha unidades enfrentamento AM
+Promotoria de Justiça,62ª Prourb,Manaus,AM,"Av. Coronel Teixeira, 7995 – Nova Esperança",08h-14h,-3.0909035934808497,-60.05450387527472,Capital,Planilha unidades enfrentamento AM
+Promotoria de Justiça,63ª Prourb,Manaus,AM,"Av. Coronel Teixeira, 7995 – Nova Esperança",08h-14h,-3.0909035934808498,-60.05450387527473,Capital,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Alvarães,Alvarães,AM,"Av. Castelo Branco, S/N – Centro",08h-14h,-3.213124820894945,-64.80829914993609,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Amaturá,Amaturá,AM,"Praça São Cristóvão, S/N – Centro",08h-14h,-3.3608210132411034,-68.198271273255,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Anamã,Anamã,AM,"Rua Álvaro Maia, S/N – Centro",08h-14h,-3.5783007186863687,-61.405613542822394,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Anori,Anori,AM,"Av. 31 de Março, 344 – Centro",08h-14h,-3.745081160695615,-61.65915640453181,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Apuí,Apuí,AM,Av. 13 de Novembro – Praça dos 3 Poderes,08h-14h,-7.200292750003247,-59.88750195991075,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Atalaia Do Norte,Atalaia Do Norte,AM,"Estrada Augusto Luzeiro, 75 – Centro",08h-14h,-4.364784105520722,-70.19149451365406,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Autazes,Autazes,AM,"R. Cel Soares, 312 - Autazes",08h-14h,-3.5824045566681697,-59.129773433258876,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Barcelos,Barcelos,AM,"Rua Padre José Báusula, 222 – São Sebastião",08h-14h,-0.9712102881719473,-62.92813159714396,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Barreirinha,Barreirinha,AM,"Rua Coronel Domingos Dutra, nº 81 – Centro",08h-14h,-2.794247986978817,-57.07021085463828,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Benjamin Constant,Benjamin Constant,AM,"Rua Castelo Branco, nº 469 – Centro",08h-14h,-4.376058714479402,-70.02707248221556,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Beruri,Beruri,AM,"Av. Costa e Silva, nº 143 – Bairro São Francisco",08h-14h,-3.9049919278591476,-61.369364990395034,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Boa Vista Do Ramos,Boa Vista Do Ramos,AM,"R. Sete de Setembro, 384 - Boa Vista do Ramos",08h-14h,-2.9707484255369954,-57.58795666168047,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Boca Do Acre,Boca Do Acre,AM,"Tv. Plácido de Castro - Platô do Piquiá, Boca do Acre - AM, 69850-000",08h-14h,-8.772146639121447,-67.33343042340947,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Borba,Borba,AM,Tv. Rui Araújo - Centro,08h-14h,-4.39069137494791,-59.59399037582634,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Caapiranga,Caapiranga,AM,Fórum de Justiça – Centro,08h-14h,-3.3286048087414812,-61.21132898151208,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Canutama,Canutama,AM,Av. Getúlio Vargas – Centro,08h-14h,-6.534518427507773,-64.38527410719892,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Carauari,Carauari,AM,Av. Castelo Branco – Centro,08h-14h,-4.879106482043154,-66.89803692020025,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça Do Careiro,Careiro,AM,Av. Adail de Sá – Centro,08h-14h,-3.8206814314656383,-60.36725729163043,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Careiro Da Várzea,Careiro Da Várzea,AM,Rua 29 de Janeiro – Centro,08h-14h,-3.197424066546437,-59.825979192477796,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Coari,Coari,AM,Estrada do Aeroporto – Centro,08h-14h,-4.103258590091726,-63.15005149425252,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Codajás,Codajás,AM,"Av. Getúlio Vargas, 48 – Centro",08h-14h,-3.8429271805932808,-62.06295138693658,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Eirunepé,Eirunepé,AM,"Av. Getúlio Vargas, 130 – Centro",08h-14h,-6.6667378816167595,-69.86465446691435,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Envira,Envira,AM,"Rua 27 de Julho, S/N – São Francisco",08h-14h,-7.433168244017871,-70.02646988326997,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Fonte Boa,Fonte Boa,AM,Rua Francisco Pereira de Souza – Centro,08h-14h,-2.5176752534277558,-66.09515946843125,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Guajará,Guajará,AM,"Rua Leopoldo Carlos, S/N – Centro",08h-14h,-7.544163222984541,-72.5778650197869,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Humaitá,Humaitá,AM,"Rua 13 Novembro, S/N (antiga Praça da Bandeira) – Centro",08h-14h,-7.506329718275992,-63.021519450250516,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Ipixuna,Ipixuna,AM,"Rua Edmar Herculano, 361 – Centro",08h-14h,-7.049358628713042,-71.69223656293128,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Iranduba,Iranduba,AM,Av. Rio Madeira – Centro,08h-14h,-3.2802971262162193,-60.184322883372296,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Itacoatiara,Itacoatiara,AM,Av. Parque – Centro,08h-14h,-3.1458260580773016,-58.44661901027086,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Itamarati,Itamarati,AM,"Rua Boa Vista, nº 105 – Centro",08h-14h,-6.44181344273643,-68.24388394859268,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Itapiranga,Itapiranga,AM,"Av. Presidente Getúlio Vargas, nº 151 – Centro",08h-14h,-2.7496868527326757,-58.02190916257228,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Japurá,Japurá,AM,Av. Amâncio Barbosa – Centro,08h-14h,-1.8786560474617395,-66.99815541679715,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Juruá,Juruá,AM,"Rua Francisco de Paula, nº100 – Centro",08h-14h,-3.473141598259756,-66.06504774087324,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Jutaí,Jutaí,AM,"Rua Teotonílio Cavalcante, nº 59 – Centro",08h-14h,-2.7498219006185343,-66.77188056426272,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Lábrea,Lábrea,AM,"Praça Coronel Labre, 95 – Centro",08h-14h,-7.26209090944427,-64.80089840396981,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Manacapuru,Manacapuru,AM,"Rua Almirante Tamandaré, 1151 – Aparecida",08h-14h,-3.2927683386022357,-60.62608560720177,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Manaquiri,Manaquiri,AM,"Rua Abílio Cintra, 5 – Centro",08h-14h,-3.4292536281329227,-60.458096413674554,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Manicoré,Manicoré,AM,Travessa Pedro Tinoco – Centro,08h-14h,-5.813418687873418,-61.297629667340985,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Maraã,Maraã,AM,"Av. Castelo Branco, nº 30 – Centro",08h-14h,-1.860260277257052,-65.59147590874893,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Maués,Maués,AM,"Av. Getúlio Vargas, nº 214 – Centro",08h-14h,-3.397631719059829,-57.718671497870304,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Nhamundá,Nhamundá,AM,"Rua Furtado Belém, 4 – Centro",08h-14h,-2.1881666091884733,-56.712035646549516,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Nova Olinda Do Norte,Nova Olinda Do Norte,AM,"Rua Triunfo, nº 349 – Centro",08h-14h,-3.890590849524544,59.093156395099626,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Novo Airão,Novo Airão,AM,"Av. Antenor Carlos Frederico, 25 – Centro",08h-14h,-2.619656821974159,-60.94777054170785,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Novo Aripuanã,Novo Aripuanã,AM,"Av. 19 de Dezembro, 1068 – Centro",08h-14h,-5.122505584112615,-60.38435888632891,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Parintins,Parintins,AM,Estrada Macurany – João Novo,08h-14h,-2.641037619965695,-56.75125101428102,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Pauini,Pauini,AM,"Rua Castelo Branco, 247 – Cidade Baixa",08h-14h,-7.7153391928850015,-67.0019819578184,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Presidente Figueiredo,Presidente Figueiredo,AM,"Av. Padre Calleri, 88 – Tancredo Neves",08h-14h,-2.056616310974996,-60.02370812792221,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Rio Preto Da Eva,Rio Preto Da Eva,AM,Rua João Domingos de Monteiro – Centro,08h-14h,-2.6994501324485873,-59.701035752843346,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Santa Isabel Do Rio Negro,Santa Isabel Do Rio Negro,AM,Rua Beira Rio – Centro,08h-14h,-0.4154594638954346,-65.0214024471718,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Santo Antônio Do Içá,Santo Antônio Do Içá,AM,Rua Hugo Ribeiro – Santa Etelvina,08h-14h,-3.102229075366024,-67.95210626713984,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De São Gabriel Da Cachoeira,São Gabriel Da Cachoeira,AM,Av. 7 de Setembro – Praia,08h-14h,-0.13585306480448162,-67.08268333058246,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De São Paulo De Olivença,São Paulo De Olivença,AM,Praça São Paulo – Centro,08h-14h,-3.4627694762720673,-68.95015448114236,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De São Sebastião Do Uatumã,São Sebastião Do Uatumã,AM,Rua São Francisco – Taboca,08h-14h,-2.5720898695076677,-57.86439328339834,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Silves,Silves,AM,Estrada Sizenando Grana – Panorama,08h-14h,-2.83573858433683,-58.21709929863578,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Tabatinga,Tabatinga,AM,Av. da Amizade – Brilhante,08h-14h,-4.237569979757232,-69.93804648277514,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Tapauá,Tapauá,AM,"Av. Castelo Branco, 390 – Centro",08h-14h,-5.620769616407215,-63.18879564307551,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Tefé,Tefé,AM,"Rua Daniel Sevalho, 215 – Centro",08h-14h,-3.3456894656868266,-64.70655777160557,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Tonantins,Tonantins,AM,(Termo de Santo Antonio do Iça),08h-14h,-2.861585974147738,-67.77505678019025,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Uarini,Uarini,AM,"Rua Espírito Santo, nº 286 – Centro",08h-14h,-2.9842509670548942,-65.15539981750734,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Urucará,Urucará,AM,"Rua Coronel Pinto, S/N – Bairro Aparecida",08h-14h,-2.5366066340809375,-57.75696693062559,Interior,Planilha unidades enfrentamento AM
+Promotoria de Justiça,Promotoria De Justiça De Urucurituba,Urucurituba,AM,"Av. Amazonas, n° 14, Bairro São Lázaro",08h-14h,-3.131559089766528,-58.15129436848503,Interior,Planilha unidades enfrentamento AM
+Delegacia Especializada,Delegacia Especializada Em Crimes Contra A Mulher – Parque 10,Manaus,AM,"Av. Mário Ypiranga Monteiro, 3395 – Parque 10",24h,"-3,0958","-60,0253",Capital,Planilha unidades enfrentamento AM
+Delegacia Especializada,Delegacia Especializada Em Crimes Contra A Mulher – Cidade De Deus,Manaus,AM,Rua Santa Ana – Cidade de Deus,08h–17h,"-3,1309","-60,0147",Capital,Planilha unidades enfrentamento AM
+Delegacia Especializada,Delegacia Especializada Em Crimes Contra A Mulher – Zona Sul,Manaus,AM,"Rua Des. Felismino Soares, 155 – Colônia Oliveira Machado",08h–17h,"-3,0217","-59,9486",Capital,Planilha unidades enfrentamento AM
+Programa PMAM,Ronda Maria Da Penha – Manaus,Manaus,AM,"Av. Sávio Belota, 145 – Novo Aleixo",24h,-3.0445052985408476,-59.958970355157405,Capital,Planilha unidades enfrentamento AM
+Programa PMAM,Ronda Maria Da Penha – Parintins,Parintins,AM,Sede da CICOM local,24h,-2.6340867926589833,-56.73622075168841,Interior,Planilha unidades enfrentamento AM
+Programa PMAM,Ronda Maria Da Penha – Tefé,Tefé,AM,Sede da CICOM local,24h,-3.3483499785541153,-64.70853664212146,Interior,Planilha unidades enfrentamento AM
+Programa PMAM,Ronda Maria Da Penha – Manacapuru,Manacapuru,AM,Sede da CICOM local,24h,-3.295560030751039,-60.628716406922045,Interior,Planilha unidades enfrentamento AM
+Programa PMAM,Ronda Maria Da Penha – Itacoatiara,Itacoatiara,AM,Sede da CICOM local,24h,-3.139653553668959,-58.43955255565131,Interior,Planilha unidades enfrentamento AM
+Programa PMAM,Ronda Maria Da Penha – Tabatinga,Tabatinga,AM,Sede da CICOM local,24h,-4.231606192698097,-69.93700990194523,Interior,Planilha unidades enfrentamento AM
+Programa PMAM,Ronda Maria Da Penha – Careiro Castanho,Careiro Castanho,AM,Sede da CICOM local,24h,-3.8223285725557803,-60.3654255038346,Interior,Planilha unidades enfrentamento AM
+Programa PMAM,Ronda Maria Da Penha – Iranduba,Iranduba,AM,Sede da CICOM local,24h,-3.278887911807854,-60.18500565476917,Interior,Planilha unidades enfrentamento AM
+Programa PMAM,Ronda Maria Da Penha – Coari,Coari,AM,Sede da CICOM local,24h,-4.092520638708969,-63.149327594118205,Interior,Planilha unidades enfrentamento AM
+Programa PMAM,Ronda Maria Da Penha – Guajará,Guajará,AM,Sede da CICOM local,24h,-7.545872647954789,-72.58073603452426,Interior,Planilha unidades enfrentamento AM
+Centro de Referência (CREAM),Centro Estadual De Referência E Apoio À Mulher,Manaus,AM,"Av. Presidente Kennedy, 399 – Educandos",08h-17h,-3.1418223626129267,-60.00508177362784,Capital,Planilha unidades enfrentamento AM
+SAPEM,Serviço De Apoio Emergencial À Mulher – Norte,Manaus,AM,Av. Nossa Senhora da Conceição – Cidade de Deus,08h-17h,-3.017264898376726,-59.93874303094101,Capital,Planilha unidades enfrentamento AM
+SAPEM,Serviço De Apoio Emergencial À Mulher – Leste,Manaus,AM,Rua dos Maracajás – São José Operário,08h-17h,-3.072691571053242,-59.9480187251746,Capital,Planilha unidades enfrentamento AM
+SAPEM,Serviço De Apoio Emergencial À Mulher – Centro-Sul,Manaus,AM,Av. Mário Ypiranga – Parque Dez de Novembro,08h-17h,-3.0881302564983986,-60.018760007957084,Capital,Planilha unidades enfrentamento AM
+SAPEM,Serviço De Apoio Emergencial À Mulher – Sul,Manaus,AM,R. Des. Felismino Soares – Colônia Oliveira Machado,08h-17h,-3.14752411873372,-60.00547076289075,Capital,Planilha unidades enfrentamento AM
+SAPEM,Serviço De Apoio Emergencial À Mulher – Oeste,Manaus,AM,Av. Constantino Nery – Compensa,08h-17h,-3.1034874075255345,-60.063388774565965,Capital,Planilha unidades enfrentamento AM
+SAPEM,Serviço De Apoio Emergencial À Mulher – Centro-Oeste,Manaus,AM,"Rua Acopiara, 134 – Redenção (anexo ao 17º DIP) Diariomunicipalaam",08h-17h,-3.0529231724442365,-60.03992197192487,Capital,Planilha unidades enfrentamento AM
+SAMIC,"Serviço De Apoio À Mulher, Idoso E Criança",Itacoatiara,AM,"Rua Eduardo Ribeiro, s/n – Jauary II, (anexo a Delegacia Especializada de Polícia)",08h-17h,-3.144618709369211,-58.435586187353714,Interior,Planilha unidades enfrentamento AM
+SAMIC,"Serviço De Apoio À Mulher, Idoso E Criança",Maués,AM,Av. Rui Barbosa s/n – Centro,08h-17h,-3.3937176914039338,-57.717051749275676,Interior,Planilha unidades enfrentamento AM
+SAMIC,"Serviço De Apoio À Mulher, Idoso E Criança",Tefé,AM,"Estrada do aeroporto, N° 1532 – São José (no interior da 5° Delegacia Especializada de Polícia)",08h-17h,-3.3530856348504243,-64.7163989296919,Interior,Planilha unidades enfrentamento AM
+SAMIC,"Serviço De Apoio À Mulher, Idoso E Criança",Parintins,AM,Rua Irmã Cristine s/n – Itaúna II (anexo a Delegacia Especializada de Polícia),08h-17h,-2.649022743767217,-56.74286808284645,Interior,Planilha unidades enfrentamento AM
+SAMIC,"Serviço De Apoio À Mulher, Idoso E Criança",Tabatinga,AM,"Rua Manoel Tananta, N° 70 Santa Rosa (anexo a Delegacia Especializada de Polícia",08h-17h,-4.226248939612583,-69.9560622915593,Interior,Planilha unidades enfrentamento AM
+SAMIC,"Serviço De Apoio À Mulher, Idoso E Criança",Humaitá,AM,Rua Vilas Boas N° 1086 – São José (anexo a Delegacia Especializada de Polícia),08h-17h,-7.516818154690733,-63.029785990560185,Interior,Planilha unidades enfrentamento AM
+SAMIC,"Serviço De Apoio À Mulher, Idoso E Criança",Barcelos,AM,"Rua Efigênio Sales, s/n – São Sebastião. Dentro do 75° DIP. Barcelos- AM",08h-17h,-0.97392730485914,-62.929070167435746,Interior,Planilha unidades enfrentamento AM
+SAMIC,"Serviço De Apoio À Mulher, Idoso E Criança",Coari,AM,"Estrada do Itapéua, nº 580 – Bairro Itamarati",08h-17h,-4.096555288328824,-63.136977520646205,Interior,Planilha unidades enfrentamento AM
+SAMIC,"Serviço De Apoio À Mulher, Idoso E Criança",Tapauá,AM,Integrada à delegacia Interativa de polícia (DIP) do município.,08h-17h,-5.625041814224037,-63.18902511509537,Interior,Planilha unidades enfrentamento AM
+NUDEM,Núcleo Especializado De Promoção E Defesa Dos Direitos Da Mulher,Manaus,AM,"Av. André Araújo, 7 - Adrianópolis",08h-14h,-3.1073252182734583,-60.00987231732684,Capital,Planilha unidades enfrentamento AM
+Delegacia Especializada,Delegacia Especializada De Polícia De Parintins,Parintins,AM,"Rua Irmã Cristine, s/n – Itaúna II",08h–14h,-2.6289,-56.7350,Interior,Planilha unidades enfrentamento AM
+Delegacia Especializada,Delegacia Especializada De Polícia De Coari,Coari,AM,"Estrada Coari–Itapeua, s/n – Itamarati",08h–14h,-4.0850,-63.1410,Interior,Planilha unidades enfrentamento AM
+Delegacia Especializada,Delegacia Especializada De Polícia De Tefé,Tefé,AM,"Estrada do Aeroporto, nº 1.532 – São José",08h–14h,-3.3540,-64.7100,Interior,Planilha unidades enfrentamento AM
+Delegacia Especializada,Delegacia Especializada De Polícia De Tabatinga,Tabatinga,AM,"Rua Manoel Tananta, nº 70 – Santa Rosa",08h–14h,-4.2520,-69.9380,Interior,Planilha unidades enfrentamento AM
+Delegacia Especializada,Delegacia Especializada De Polícia De Humaitá,Humaitá,AM,"Rua Vilas Boas, nº 1.086 – Centro",08h–14h,-7.5060,-63.0200,Interior,Planilha unidades enfrentamento AM
+Delegacia Especializada,Delegacia Especializada De Polícia De São Gabriel Da Cachoeira,São Gabriel Da Cachoeira,AM,"Estrada Xidá, s/n – Nossa Senhora de Fátima",08h–14h,-0.1190,-67.0850,Interior,Planilha unidades enfrentamento AM
+Delegacia Especializada,Delegacia Especializada De Polícia De Eirunepé,Eirunepé,AM,"Rua Rio Juruá, s/n – Centro",08h–14h,-6.6600,-69.8730,Interior,Planilha unidades enfrentamento AM
+Delegacia Especializada,Delegacia Especializada De Polícia De Lábrea,Lábrea,AM,"Rua Villa Lobos, nº 1.100 – São José",08h–14h,-7.2580,-64.7940,Interior,Planilha unidades enfrentamento AM
+CREAS,Creas Centro De Referencia Especializado Da Assistência Social - Mariana Seabra Nascimento,Tonantins,AM,,,-2.86261,-67.773548,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Autazes,AM,,,-3.583328,-59.130152,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Casa Da Esperança,Benjamin Constant,AM,,,-4.378275,-70.02906,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Itapiranga,AM,,,-2.74612,-58.025377,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Ipixuna,Ipixuna,AM,,,-7.050283,-71.691232,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Boca do Acre,AM,,,-8.755349,-67.393087,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Barreirinha,AM,,,-2.798863,-57.067897,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Centro De Referência Especializado De Assistência Social,Beruri,AM,,,-3.900714,-61.371732,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Boa Vista do Ramos,AM,,,-2.971693,-57.586982,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Santa Souza,Borba,AM,,,-4.393478,-59.594772,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Centro De Referencia Especializada De Assistencia Social,Parintins,AM,,,-2.634457,-56.731932,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Centro De Referência Especializada Da Assistencia Social,Tapauá,AM,,,-5.623228,-63.187916,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Apuí,AM,,,-7.194019,-59.883019,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Izaura Ferreira Martins,Caapiranga,AM,,,-3.318888,-61.20964,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Eliney Ferreira Mendes,Coari,AM,,,-4.088596,-63.143117,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Careiro,AM,,,-3.818528,-60.361651,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Careiro da Várzea,AM,,,-3.197024,-59.82591,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Sebastiana Enoy Monteiro Gomes,Eirunepé,AM,,,-6.656765,-69.866161,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Juruá,AM,,,-3.474667,-66.062234,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Centro De Referência Especializado De Assistência Social,Lábrea,AM,,,-7.261368,-64.792451,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Centro De Referencia Especializado De Assistencia Social,Maués,AM,,,-3.37958,-57.719607,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Laurinete Ferreira De Oliveira,Manacapuru,AM,,,-3.299677,-60.621353,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Manaquiri,AM,,,-3.430588,-60.459308,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Pauini,AM,,,-7.712221,-66.999844,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Edson De Souza Passos,Novo Aripuanã,AM,,,-5.125929,-60.373179,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Rio Preto da Eva,AM,,,-2.699065,-59.701249,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,São Sebastião do Uatumã,AM,,,-2.571934,-57.870362,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Tefe I,Tefé,AM,,,-3.348528,-64.710228,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas -Centro De Referencia Especializado Da Assistencia Social,Urucará,AM,,,-2.537073,-57.759025,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Urucurituba,AM,,,-3.130433,-58.154916,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Centro De Referência Especializada De Assistência Social,Alvarães,AM,,,-3.215579,-64.814833,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Anori,AM,,,-3.743525,-61.66052,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Sentinela Do Javarí,Atalaia do Norte,AM,,,-4.365855,-70.190874,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Centro De Referencia Especializado De Assistencia Social,Barcelos,AM,,,-0.972921,-62.925635,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Carauari,Carauari,AM,,,-4.876643,-66.896143,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Envira,AM,,,-7.437889,-70.028143,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Jutai,Jutaí,AM,,,-2.747148,-66.772126,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Maria Da Gloria Dos Reis Morais,Manicoré,AM,,,-5.804618,-61.289483,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Maraa,Maraã,AM,,,-1.853558,-65.589775,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas -Centro De Referência Especializado De Assistência Social,Novo Airão,AM,,,-2.626024,-60.943441,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Centro De Referência Especializado Da Assistência Social De Nhamundá,Nhamundá,AM,,,-2.192152,-56.711131,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Nova Olinda Do Norte,Nova Olinda do Norte,AM,,,-3.894466,-59.088384,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Centro De Referencia Especializado Da Assistencia Social,Presidente Figueiredo,AM,,,-2.048636,-60.023666,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Santa Isabel do Rio Negro,AM,,,-0.416039,-65.01531,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Centro De Referencia Especializada De Assistencia,São Gabriel da Cachoeira,AM,,,-0.124971,-67.081385,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas De Santo Antonio Do Ica,Santo Antônio do Içá,AM,,,-3.095443,-67.946279,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,São Paulo de Olivença,AM,,,-3.465063,-68.946846,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Tabatinga,Tabatinga,AM,,,-4.224725,-69.93622,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Iranduba,Iranduba,AM,,,-3.27582,-60.186743,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Centro Especializado De Referência Da Assistência Social,Itacoatiara,AM,,,-3.14779,-58.446104,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Codajás Elza De Lima Maia,Codajás,AM,,,-3.84132,-62.060344,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Itamarati,AM,,,-6.438519,-68.243739,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas Centro De Referência Especializado De Assistência Social,Canutama,AM,,,-6.533002,-64.383497,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Japurá,AM,,,-1.880847,-66.996766,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas,Fonte Boa,AM,,,-2.514746,-66.094842,Interior,CADSUAS/MDS + agendamentocras.com.br
+CREAS,Creas - Casa Dos Direitos Especiais,Humaitá,AM,,,-7.50994,-63.024867,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS 7 de Setembro,Urucurituba,AM,,,-3.130433,-58.154916,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Crispim Lobo,Urucará,AM,,,-2.537073,-57.759025,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Castelo Branco,Uarini,AM,,,-2.982706,-65.157861,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Benjamin Constant,Tonantins,AM,,,-2.86261,-67.773548,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Jerusalém,Tefé,AM,,,-3.348528,-64.710228,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Abial,Tefé,AM,,,-3.348528,-64.710228,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Monteiro de Souza,Tefé,AM,,,-3.348528,-64.710228,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Central de Tapauá,Tapauá,AM,,,-5.623228,-63.187916,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Comunidade São Francisco,Tabatinga,AM,,,-4.224725,-69.93622,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Marechal Mallet,Tabatinga,AM,,,-4.224725,-69.93622,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Coronel José Esteves,Silves,AM,,,-2.837261,-58.21052,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Centro,São Sebastião do Uatumã,AM,,,-2.571934,-57.870362,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Barão do Rio Branco,São Paulo de Olivença,AM,,,-3.465063,-68.946846,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Dabaru,São Gabriel da Cachoeira,AM,,,-0.124971,-67.081385,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Álvaro Maia,São Gabriel da Cachoeira,AM,,,-0.124971,-67.081385,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Rui Barbosa,Santo Antônio do Içá,AM,,,-3.095443,-67.946279,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS João Pessoa,Santa Isabel do Rio Negro,AM,,,-0.416039,-65.01531,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Governador Ângelo Amaral,Rio Preto da Eva,AM,,,-2.699065,-59.701249,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Maroaga,Presidente Figueiredo,AM,,,-2.048636,-60.023666,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Urubuí,Presidente Figueiredo,AM,,,-2.048636,-60.023666,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Getúlio Vargas,Pauini,AM,,,-7.712221,-66.999844,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Itaúna II,Parintins,AM,,,-2.634457,-56.731932,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS União,Parintins,AM,,,-2.634457,-56.731932,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Paulo Corrêa,Parintins,AM,,,-2.634457,-56.731932,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Vila Novo Horizonte,Novo Aripuanã,AM,,,-5.125929,-60.373179,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS 16 de Fevereiro,Novo Aripuanã,AM,,,-5.125929,-60.373179,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Antenor Carlos Frederico,Novo Airão,AM,,,-2.626024,-60.943441,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Triunfo,Nova Olinda do Norte,AM,,,-3.894466,-59.088384,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Furtado Belém,Nhamundá,AM,,,-2.192152,-56.711131,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Castelo Branco,Maraã,AM,,,-1.853558,-65.589775,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Auxiliadora,Manicoré,AM,,,-5.804618,-61.289483,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS 5 de Setembro,Manaquiri,AM,,,-3.430588,-60.459308,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Novo Manacá,Manacapuru,AM,,,-3.299677,-60.621353,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS São José,Manacapuru,AM,,,-3.299677,-60.621353,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Terra Preta,Manacapuru,AM,,,-3.299677,-60.621353,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS 22 de Outubro,Lábrea,AM,,,-7.261368,-64.792451,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Francisco de Paula,Juruá,AM,,,-3.474667,-66.062234,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Coronel Salgado,Japurá,AM,,,-1.880847,-66.996766,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Beira Rio,Itamarati,AM,,,-6.438519,-68.243739,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Mamoud Amed,Itacoatiara,AM,,,-3.14779,-58.446104,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Jauary,Itacoatiara,AM,,,-3.14779,-58.446104,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Benjamin Constant,Itacoatiara,AM,,,-3.14779,-58.446104,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Rio Madeira,Iranduba,AM,,,-3.27582,-60.186743,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Amazonas,Ipixuna,AM,,,-7.050283,-71.691232,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS São Domingos Sávio,Humaitá,AM,,,-7.50994,-63.024867,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS 5 de Setembro,Humaitá,AM,,,-7.50994,-63.024867,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Marechal Rondon,Fonte Boa,AM,,,-2.514746,-66.094842,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Senador Fábio Lucena,Envira,AM,,,-7.437889,-70.028143,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Santo Antônio,Eirunepé,AM,,,-6.656765,-69.866161,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Getúlio Vargas,Eirunepé,AM,,,-6.656765,-69.866161,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Quintino Bocaiuva,Codajás,AM,,,-3.84132,-62.060344,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Urucu,Coari,AM,,,-4.088596,-63.143117,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS 5 de Setembro,Coari,AM,,,-4.088596,-63.143117,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Solimões,Careiro da Várzea,AM,,,-3.197024,-59.82591,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Santa Luzia,Carauari,AM,,,-4.876643,-66.896143,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Rui Barbosa,Carauari,AM,,,-4.876643,-66.896143,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS João Batista,Canutama,AM,,,-6.533002,-64.383497,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Marechal Deodoro,Caapiranga,AM,,,-3.318888,-61.20964,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Getúlio Vargas,Borba,AM,,,-4.393478,-59.594772,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Platô do Piquiá,Boca do Acre,AM,,,-8.755349,-67.393087,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS 7 de Setembro,Boca do Acre,AM,,,-8.755349,-67.393087,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Castelo Branco,Boa Vista do Ramos,AM,,,-2.971693,-57.586982,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Frei Ludovico,Benjamin Constant,AM,,,-4.378275,-70.02906,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Boa Vista,Barreirinha,AM,,,-2.798863,-57.067897,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Tenreiro Aranha,Barcelos,AM,,,-0.972921,-62.925635,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS 1º de Maio,Atalaia do Norte,AM,,,-4.365855,-70.190874,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS 31 de Março,Anori,AM,,,-3.743525,-61.66052,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Raimundo Pereira,Anamã,AM,,,-3.579736,-61.405,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Beira Rio,Amaturá,AM,,,-3.364051,-68.199469,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS João Paulo II,Alvarães,AM,,,-3.215579,-64.814833,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Donga Michiles,Maués,AM,,,-3.37958,-57.719607,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Quintino Bocaiuva,Maués,AM,,,-3.37958,-57.719607,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Getúlio Vargas,Autazes,AM,,,-3.583328,-59.130152,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Amazonas,Apuí,AM,,,-7.194019,-59.883019,Interior,CADSUAS/MDS + agendamentocras.com.br
+CRAS,CRAS Autazes,Autazes,AM,,,-3.583328,-59.130152,Interior,CADSUAS/MDS + agendamentocras.com.br
