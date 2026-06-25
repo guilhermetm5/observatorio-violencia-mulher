@@ -26,3 +26,11 @@ __pycache__/
 # Power BI temporários
 # ─────────────────────────────────────────────
 *.pbix.bak
+
+# ─────────────────────────────────────────────
+# Documentação e evidências (uso local / entrega acadêmica)
+# Não versionados no GitHub
+# ─────────────────────────────────────────────
+documentacao/
+Extensão/
+imagens/
